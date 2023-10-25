@@ -1,13 +1,13 @@
 <a name="readme-top"></a>
 
-  <h3><b>hello_rails_back_end</b></h3>
+  <h3><b>final_capstone_back_end</b></h3>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 hello\_rails\_back\_end ](#-hello_rails_back_end-)
+- [📖 final\_capstone\_back\_end ](#-final_capstone_back_end-)
   - [💻 link to back end ](#-link-to-back-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -17,7 +17,7 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [👥 Author ](#-author-)
+  - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -27,15 +27,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello_rails_back_end <a name="about-project"></a>
+# 📖 final_capstone_back_end <a name="about-project"></a>
 
-**hello_rails_back_end** The backend for this project is built using Ruby on Rails as an API. It's a simple API connected to a PostgreSQL database designed for storing greeting messages. The API has a single endpoint which randomly selects one of these messages to send to the frontend.
+**final_capstone_back_end** The back-end component of this final capstone project is developed using Ruby on Rails, configured to serve as an API. This API is designed to facilitate reservations or appointments for test drives of cars. It leverages a PostgreSQL database to manage and store reservation data.
 
 
 ## 💻 link to back end <a name="built-with"></a>
 
 
-[Link to Front End](https://github.com/ClaudiaRojasSoto/hello-react-front-end)
+[Link to Front End](https://github.com/ClaudiaRojasSoto/final_capstone_back_end)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,8 +47,6 @@
   <summary>Technologies</summary>
   <ul>
     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 <details>
@@ -61,13 +59,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [x] **Ruby on Rails and React Integration**
-- [x] **API Endpoint for Random Greetings**
+- [x] **Ruby on Rails**
+- [x] **API Endpoint**
 - [x] **Professional Documentation**
 - [x] **Linting for Code Quality**
 - [x] **Postgres Database**
 - [x] **Git Version Control**
-- [x] **Interactive User Interface**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +87,7 @@ Clone this repository to your desired folder:
 
 sh <br>
 cd my-folder <br>
-git clone https://github.com/ClaudiaRojasSoto/hello_rails_back_end.git
+git clone https://github.com/ClaudiaRojasSoto/final_capstone_back_end.git
 
 ### Install
 
@@ -105,19 +102,30 @@ To run the project, execute the following command:
 
 rails server
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Claudia Rojas**
 
-- GitHub: @ClaudiaRojas
-- LinkedIn: @ClaudiaRojas
+- GitHub: [@ClaudiaRojas](https://github.com/ClaudiaRojasSoto)
+- LinkedIn: [@ClaudiaRojas](https://www.linkedin.com/in/claudia-rojas-soto/)
+
+👤 **Pablo Bonasera**
+
+- GitHub: [@PabloBona](https://github.com/PabloBona)
+- LinkedIn: [Pablo Bonasera](https://www.linkedin.com/in/pablo-bonasera/)
+
+👤 **Alexandre Ferreira**
+
+- GitHub: [@AlexandreFerreira](https://github.com/alexmedinasf)
+- LinkedIn: [@AlexandreFerreira](https://www.linkedin.com/in/alexmedinasf/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Personalized Greetings**
+- [ ] **Implement proper user authentication from the front-end to the server**
+- [ ] **Add authorizations to users**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,7 +134,7 @@ rails server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/hello_rails_back_end/issues).
+Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/final_capstone_back_end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +148,11 @@ And think If you enjoy gift me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- - Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
+ - Microverse for providing the opportunity to learn in a collaborative environment.
  - GitHub Docs for providing a wealth of information on Git and GitHub.
+ - Alexandre Medina: .
+ - Pablo Bonasera: .
+ - Claudia Rojas: .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
