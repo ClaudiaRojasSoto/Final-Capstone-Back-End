@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  deposit: 1
+  finance_fee: 1
+  option_to_purchase_fee: 1
+  total_amount_payable: 1
+  duration: 1
+  removed: false
+
+two:
+  name: MyString
+  description: MyText
+  deposit: 1
+  finance_fee: 1
+  option_to_purchase_fee: 1
+  total_amount_payable: 1
+  duration: 1
+  removed: false
