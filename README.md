@@ -8,6 +8,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 final\_capstone\_back\_end ](#-final_capstone_back_end-)
+  - [🛠 ER Diagram ](#-er-diagram-)
   - [💻 link to front end ](#-link-to-front-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -25,12 +26,17 @@
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 final_capstone_back_end <a name="about-project"></a>
 
 **final_capstone_back_end** The back-end component of this final capstone project is developed using Ruby on Rails, configured to serve as an API. This API is designed to facilitate reservations or appointments for test drives of cars. It leverages a PostgreSQL database to manage and store reservation data.
 
+## 🛠 ER Diagram <a name="built-with"></a>
+
+![ER Diagram](diagram.jpeg)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 link to front end <a name="built-with"></a>
 
