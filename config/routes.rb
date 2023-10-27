@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
-  get 'users/index'
-  devise_for :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    resources :cars do
+      member do
+        get 'image'
+      end
+      resources :reservations, only: [:create, :index]
+    end
 
-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
-  # Can be used by load balancers and uptime monitors to verify that the app is live.
-  get "up" => "rails/health#show", as: :rails_health_check
+    resources :users, only: [:create]
+    post 'login', to: 'sessions#create'
+    delete 'logout', to: 'sessions#destroy'
 
-  # Defines the root path route ("/")
-  # root "posts#index"
+    resources :reservations, only: [:show, :update, :destroy]
+
+    get 'user_reservations', to: 'reservations#user_reservations'
+  end
 end
