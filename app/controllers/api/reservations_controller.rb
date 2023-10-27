@@ -27,8 +27,8 @@ class Api::ReservationsController < ApplicationController
         render json: { 
           success: true, 
           reservation_id: @reservation.id, 
-          user_name: current_user.name, # Devuelve el nombre del usuario actual
-          car_info: @car.attributes     # Devuelve los atributos del auto seleccionado
+          user_name: current_user.name,
+          car_info: @car.attributes
         }
       else
         render json: { error: @reservation.errors.full_messages }, status: :unprocessable_entity
