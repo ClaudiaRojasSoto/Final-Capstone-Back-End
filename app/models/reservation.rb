@@ -6,8 +6,8 @@ class Reservation < ApplicationRecord
 
   def reservation_with_car
     {
-      reservation: self.attributes,
-      car: self.car.attributes
+      reservation: attributes,
+      car: car.attributes
     }
   end
 end

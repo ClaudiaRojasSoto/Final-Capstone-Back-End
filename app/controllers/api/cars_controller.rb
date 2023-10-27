@@ -13,7 +13,9 @@ class Api::CarsController < ApplicationController
   def show
     @car = Car.find(params[:id])
     image_url = url_for(@car.image) if @car.image.attached?
+    # rubocop:disable Style/HashSyntax
     render json: { car: @car.attributes, image_url: image_url }
+    # rubocop:enable Style/HashSyntax
   end
 
   def create
@@ -21,12 +23,8 @@ class Api::CarsController < ApplicationController
 
     ActiveRecord::Base.transaction do
       if @car.save
-        # Handle the image attachment if provided.
-        if params[:image].present?
-          @car.image.attach(params[:image])
-        end
+        @car.image.attach(params[:image]) if params[:image].present?
 
-        # If everything goes well, send a success response.
         render json: { message: 'Car created successfully' }, status: :created
       else
         render json: { errors: @car.errors.full_messages }, status: :unprocessable_entity
@@ -43,9 +41,8 @@ class Api::CarsController < ApplicationController
   private
 
   def car_params
-    params.require(:car).permit(:name, :description, :deposit, :finance_fee, 
-                                :option_to_purchase_fee, :total_amount_payable, 
+    params.require(:car).permit(:name, :description, :deposit, :finance_fee,
+                                :option_to_purchase_fee, :total_amount_payable,
                                 :duration, :removed, :image)
   end
-  
 end

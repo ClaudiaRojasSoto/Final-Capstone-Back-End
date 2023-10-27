@@ -1,11 +1,11 @@
 class Api::ReservationsController < ApplicationController
   before_action :set_car, only: [:create]
-  before_action :set_reservation, only: [:show, :update, :destroy]
+  before_action :set_reservation, only: %i[show update destroy]
 
   def user_reservations
     @reservations = current_user.reservations
-  response = @reservations.map(&:reservation_with_car)
-  render json: response
+    response = @reservations.map(&:reservation_with_car)
+    render json: response
   end
 
   def index
@@ -21,12 +21,12 @@ class Api::ReservationsController < ApplicationController
     @reservation = Reservation.new(reservation_params)
     @reservation.user = current_user
     @reservation.car = @car
-  
+
     if @car.available?(@reservation.start_time, @reservation.end_time)
       if @reservation.save
-        render json: { 
-          success: true, 
-          reservation_id: @reservation.id, 
+        render json: {
+          success: true,
+          reservation_id: @reservation.id,
           user_name: current_user.name,
           car_info: @car.attributes
         }
