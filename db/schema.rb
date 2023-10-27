@@ -53,7 +53,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_10_26_225531) do
     t.boolean "removed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "image"
   end
 
   create_table "reservations", force: :cascade do |t|
