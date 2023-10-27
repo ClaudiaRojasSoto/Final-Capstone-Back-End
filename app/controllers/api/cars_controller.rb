@@ -17,11 +17,8 @@ class Api::CarsController < ApplicationController
   end
 
   def create
-    # Creating a new car instance from the provided parameters.
     @car = Car.new(car_params)
 
-    # Wrapping the save method in a transaction. This ensures that if anything goes wrong,
-    # all changes to the database will be rolled back.
     ActiveRecord::Base.transaction do
       if @car.save
         # Handle the image attachment if provided.
@@ -32,7 +29,6 @@ class Api::CarsController < ApplicationController
         # If everything goes well, send a success response.
         render json: { message: 'Car created successfully' }, status: :created
       else
-        # If the car isn't saved due to validation errors or other issues, send an error response.
         render json: { errors: @car.errors.full_messages }, status: :unprocessable_entity
       end
     end
