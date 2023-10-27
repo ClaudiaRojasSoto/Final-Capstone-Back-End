@@ -21,10 +21,15 @@ class Api::ReservationsController < ApplicationController
     @reservation = Reservation.new(reservation_params)
     @reservation.user = current_user
     @reservation.car = @car
-
+  
     if @car.available?(@reservation.start_time, @reservation.end_time)
       if @reservation.save
-        render json: { success: true, reservation_id: @reservation.id }
+        render json: { 
+          success: true, 
+          reservation_id: @reservation.id, 
+          user_name: current_user.name, # Devuelve el nombre del usuario actual
+          car_info: @car.attributes     # Devuelve los atributos del auto seleccionado
+        }
       else
         render json: { error: @reservation.errors.full_messages }, status: :unprocessable_entity
       end
