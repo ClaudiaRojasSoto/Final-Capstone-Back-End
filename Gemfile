@@ -11,6 +11,8 @@ gem 'rack-cors'
 
 gem 'devise'
 
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 

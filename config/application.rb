@@ -28,5 +28,7 @@ module FinalCapstoneBackEnd
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.middleware.use ActionDispatch::Cookies # Added this line
+    config.middleware.use ActionDispatch::Session::CookieStore # Added this line
   end
 end
