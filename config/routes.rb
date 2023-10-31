@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       resources :reservations, only: [:create, :index]
     end
 
-    resources :users, only: [:create]
+    resources :users, only: [:index, :create, :show]
     post 'login', to: 'sessions#create'
     delete 'logout', to: 'sessions#destroy'
 
