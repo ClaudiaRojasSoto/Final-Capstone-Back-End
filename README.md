@@ -120,10 +120,6 @@ rails server
 - GitHub: [@PabloBona](https://github.com/PabloBona)
 - LinkedIn: [Pablo Bonasera](https://www.linkedin.com/in/pablo-bonasera/)
 
-👤 **Alexandre Ferreira**
-
-- GitHub: [@AlexandreFerreira](https://github.com/alexmedinasf)
-- LinkedIn: [@AlexandreFerreira](https://www.linkedin.com/in/alexmedinasf/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +152,6 @@ And think If you enjoy gift me a star.
 
  - Microverse for providing the opportunity to learn in a collaborative environment.
  - GitHub Docs for providing a wealth of information on Git and GitHub.
- - Alexandre Medina: .
  - Pablo Bonasera: .
  - Claudia Rojas: .
 
