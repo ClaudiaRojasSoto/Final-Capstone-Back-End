@@ -1,11 +1,9 @@
 {
 	"info": {
-		"_postman_id": "773c5c6a-9683-4a1a-8201-cb3d8d4a0506",
-		"name": "back end capstone full stack",
-		"description": "# Introduction\n\nThe Car Reservations API allows users to create, view, update, and delete reservations for available cars. Users can view the cars they have reserved, check the availability of a car on specific dates, and manage their own reservations.\n\n# Overview\n\n\\-The API is primarily designed for car reservation management.  \n\\-Users must be authenticated to access most functionalities, especially those that modify data.  \n\\-It is recommended to check the availability of a car before attempting to make a reservation.  \n\\-The API responds with standard HTTP status codes to indicate the success or failure of an operation.\n\n# Authentication\n\nThe API uses cookie-based tokens to authenticate users. Ensure you send the appropriate cookie with every request requiring authentication. Cookies should be flagged as HttpOnly and Secure for enhanced security.\n\n# Error Codes\n\nWhat errors and status codes can a user expect?\n\n\\-200 OK: The request was successful.  \n\\-201 Created: A new resource was successfully created (e.g., a new reservation).  \n\\-400 Bad Request: The request was invalid or malformed.  \n\\-401 Unauthorized: User needs to authenticate to access the resource.  \n\\-403 Forbidden: The authenticated user doesn't have permission to access the resource.  \n\\-404 Not Found: The requested resource was not found.  \n\\-422 Unprocessable Entity: The request was understood, but it contains invalid data.  \n\\-500 Internal Server Error: An error occurred on the server when processing the request.\n\n# Rate limit\n\nCurrently, there isn't a set limit on the number of requests a user can send.",
+		"_postman_id": "c8aa6272-86a4-41fb-b5ec-171e9242b734",
+		"name": "Full Stack Capstone Project",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "30837886",
-		"_collection_link": "https://winter-desert-419071.postman.co/workspace/My-Workspace~efdb5aba-9d35-41c3-848e-87060938ceb9/collection/19270283-773c5c6a-9683-4a1a-8201-cb3d8d4a0506?action=share&source=collection_link&creator=30837886"
+		"_exporter_id": "19270283"
 	},
 	"item": [
 		{
@@ -450,6 +448,28 @@
 					]
 				},
 				"description": "List a ser information by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/current",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"current"
+					]
+				},
+				"description": "Guve details about the current user."
 			},
 			"response": []
 		}
