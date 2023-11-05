@@ -22,6 +22,7 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
+  - [💻 API Documentation ](#-api-documentation-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -111,6 +112,18 @@ Install this project with:
 To run the project, execute the following command:
 
 rails server
+
+## 💻 API Documentation <a name="getting-started"></a>
+
+[Run in Postman](https://winter-desert-419071.postman.co/workspace/My-Workspace~efdb5aba-9d35-41c3-848e-87060938ceb9/collection/19270283-b003a584-76ab-4464-8520-ecbd8d4677df?action=share&creator=19270283)
+
+<div align="center">
+
+![API Methods](api.png)
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
