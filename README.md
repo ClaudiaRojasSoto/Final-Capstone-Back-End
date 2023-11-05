@@ -26,14 +26,14 @@
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
-
+![EED](app.png)
 # 📖 final_capstone_back_end <a name="about-project"></a>
 
 **final_capstone_back_end** The back-end component of this final capstone project is developed using Ruby on Rails, configured to serve as an API. This API is designed to facilitate reservations or appointments for test drives of cars. It leverages a PostgreSQL database to manage and store reservation data.
 
 ## 🛠 ER Diagram <a name="built-with"></a>
 
-![ER Diagram](diagram.jpeg)
+![ER Diagram](diagram1.jpeg)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -41,7 +41,7 @@
 ## 💻 link to front end <a name="built-with"></a>
 
 
-[Link to Front End]()
+[Link to Front End](https://github.com/ClaudiaRojasSoto/Final-Capstone-Front-End)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,10 +150,10 @@ And think If you enjoy gift me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- - Microverse for providing the opportunity to learn in a collaborative environment.
- - GitHub Docs for providing a wealth of information on Git and GitHub.
- - Pablo Bonasera: .
- - Claudia Rojas: .
+- Behance and Murat Korkmaz for the [original design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
+- Microverse for providing the opportunity to learn in a collaborative environment.
+- React.js Documentation for valuable resources on React development.
+- GitHub for version control and collaboration tools.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
