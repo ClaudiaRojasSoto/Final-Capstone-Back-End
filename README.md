@@ -22,6 +22,7 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
+    - [Database Setup](#database-setup)
     - [Usage](#usage)
   - [💻 API Documentation ](#-api-documentation-)
   - [👥 Authors ](#-authors-)
@@ -97,35 +98,61 @@ This project was completed by two of the three original Team members:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-Before you begin, make sure you have the following prerequisites installed on your system:
+Before you begin, ensure you have the following prerequisites installed on your system:
 
 - Ruby: You need Ruby to run the Ruby on Rails application.
-- Bundler: Bundler is used to manage gem dependencies in your Ruby project.
+- Bundler: Bundler is used to manage gem dependencies for your Ruby project.
 
 ### Setup
 
-Clone this repository to your desired folder:
+In your terminal, navigate to the folder of your choice and clone the repository with the following commands:
 
-sh <br>
-cd my-folder <br>
+```sh
+cd my-folder
 git clone https://github.com/ClaudiaRojasSoto/final_capstone_back_end.git
 
+```
+
 ### Install
+
+After cloning the project, change into the project directory:
+
+```sh
+cd final_capstone_back_end
+
+```
 
 Install this project with:
 
 - gem install rails
 - bundle install
 
+### Database Setup
+
+Create and migrate your database with:
+
+```sh
+
+rails db:create
+rails db:migrate
+
+```
 ### Usage
 
 To run the project, execute the following command:
 
+```sh
+
 rails server
+
+```
+This should start your local server on http://localhost:3000/. Now, you can use the REST API client of your choice to interact with the API.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 API Documentation <a name="getting-started"></a>
 
