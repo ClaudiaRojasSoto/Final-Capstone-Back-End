@@ -16,6 +16,7 @@ class Reservation < ApplicationRecord
 
   def start_time_must_be_in_the_future
     return if start_time.blank?
+
     errors.add(:start_time, "can't be in the past") if start_time < Time.current
   end
 end

@@ -21,7 +21,9 @@ RSpec.describe Reservation, type: :model do
   describe '#reservation_with_car' do
     let(:user) { create(:user) }
     let(:car) { create(:car) }
-    let(:reservation) { create(:reservation, user: user, car: car, start_time: 1.day.from_now, end_time: 2.days.from_now) }
+    let(:reservation) do
+      create(:reservation, user:, car:, start_time: 1.day.from_now, end_time: 2.days.from_now)
+    end
 
     it 'returns a hash with reservation and car attributes' do
       result = reservation.reservation_with_car
