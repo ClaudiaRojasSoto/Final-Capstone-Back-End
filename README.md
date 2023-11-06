@@ -1,3 +1,7 @@
+<div align="center">
+
+![EED](app.png)
+
 <a name="readme-top"></a>
 
   <h3><b>final_capstone_back_end</b></h3>
@@ -10,6 +14,7 @@
 - [📖 final\_capstone\_back\_end ](#-final_capstone_back_end-)
   - [🛠 ER Diagram ](#-er-diagram-)
   - [💻 link to front end ](#-link-to-front-end-)
+  - [💻 link to Kanban board information ](#-link-to-kanban-board-information-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -18,6 +23,7 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
+  - [💻 API Documentation ](#-api-documentation-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -33,7 +39,7 @@
 
 ## 🛠 ER Diagram <a name="built-with"></a>
 
-![ER Diagram](diagram.jpeg)
+![ER Diagram](diagram1.jpeg)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -41,7 +47,20 @@
 ## 💻 link to front end <a name="built-with"></a>
 
 
-[Link to Front End]()
+[Link to Front End](https://github.com/ClaudiaRojasSoto/Final-Capstone-Front-End)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 link to Kanban board information <a name="built-with"></a>
+
+[Link to Kanban Board](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/projects/1)
+
+[Initial state](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/issues/16)
+
+This project was completed by two of the three original Team members:
+
+- Pablo Bonasera
+- Claudia Rojas
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,6 +127,19 @@ To run the project, execute the following command:
 
 rails server
 
+## 💻 API Documentation <a name="getting-started"></a>
+
+<div align="center">
+
+[Run in Postman](https://winter-desert-419071.postman.co/workspace/My-Workspace~efdb5aba-9d35-41c3-848e-87060938ceb9/collection/19270283-b003a584-76ab-4464-8520-ecbd8d4677df?action=share&creator=19270283)
+
+
+![API Methods](api.png)
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Claudia Rojas**
@@ -150,10 +182,10 @@ And think If you enjoy gift me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- - Microverse for providing the opportunity to learn in a collaborative environment.
- - GitHub Docs for providing a wealth of information on Git and GitHub.
- - Pablo Bonasera: .
- - Claudia Rojas: .
+- Behance and Murat Korkmaz for the [original design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
+- Microverse for providing the opportunity to learn in a collaborative environment.
+- React.js Documentation for valuable resources on React development.
+- GitHub for version control and collaboration tools.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
