@@ -115,9 +115,10 @@ rails server
 
 ## 💻 API Documentation <a name="getting-started"></a>
 
+<div align="center">
+
 [Run in Postman](https://winter-desert-419071.postman.co/workspace/My-Workspace~efdb5aba-9d35-41c3-848e-87060938ceb9/collection/19270283-b003a584-76ab-4464-8520-ecbd8d4677df?action=share&creator=19270283)
 
-<div align="center">
 
 ![API Methods](api.png)
 
