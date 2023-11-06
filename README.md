@@ -55,7 +55,7 @@
 
 [Link to Kanban Board](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/projects/1)
 
-![Initial state](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/issues/16)
+[Initial state](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/issues/16)
 
 This project was completed by two of the three original Team members:
 
