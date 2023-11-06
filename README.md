@@ -26,6 +26,7 @@
     - [Usage](#usage)
   - [🔬 Running Tests ](#-running-tests-)
     - [Test Suite](#test-suite)
+  - [💻 API Documentation ](#-api-documentation-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -168,10 +169,20 @@ To install RSpec if you haven't already, run:
 
 ```sh
 gem install rspec
-## 💻 API Documentation <a name="getting-started"></a>
+
+```
+
+After you've installed RSpec, you can run the tests with:
+
+```sh
+
+rspec
+
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 API Documentation <a name="getting-started"></a>
 
 <div align="center">
 
