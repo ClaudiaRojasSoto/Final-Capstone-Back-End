@@ -7,13 +7,23 @@ RSpec.describe Reservation, type: :model do
   end
 
   describe 'validations' do
+    subject { create(:reservation, start_time: 1.day.from_now, end_time: 2.days.from_now) }
     it { should validate_presence_of(:start_time) }
     it { should validate_presence_of(:end_time) }
     it { should validate_presence_of(:city) }
+
+    it 'is not valid if start_time is in the past' do
+      reservation = build(:reservation, start_time: 1.day.ago, end_time: 2.days.from_now)
+      expect(reservation).not_to be_valid
+    end
   end
 
   describe '#reservation_with_car' do
-    let(:reservation) { create(:reservation) }
+    let(:user) { create(:user) }
+    let(:car) { create(:car) }
+    let(:reservation) do
+      create(:reservation, user:, car:, start_time: 1.day.from_now, end_time: 2.days.from_now)
+    end
 
     it 'returns a hash with reservation and car attributes' do
       result = reservation.reservation_with_car
