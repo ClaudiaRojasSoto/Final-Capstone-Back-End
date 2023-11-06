@@ -14,6 +14,7 @@
 - [📖 final\_capstone\_back\_end ](#-final_capstone_back_end-)
   - [🛠 ER Diagram ](#-er-diagram-)
   - [💻 link to front end ](#-link-to-front-end-)
+  - [💻 link to Kanban board information ](#-link-to-kanban-board-information-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -47,6 +48,19 @@
 
 
 [Link to Front End](https://github.com/ClaudiaRojasSoto/Final-Capstone-Front-End)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 link to Kanban board information <a name="built-with"></a>
+
+[Link to Kanban Board](https://github.com/ClaudiaRojasSoto/Final-Capstone-Back-End/projects/1)
+
+![Initial state](https://user-images.githubusercontent.com/97201255/278080297-056119b8-650f-4add-9bec-b1365d9fc191.png)
+
+This project was completed by two of the three original Team members:
+
+- Pablo Bonasera
+- Claudia Rojas
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
