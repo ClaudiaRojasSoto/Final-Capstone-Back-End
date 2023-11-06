@@ -24,7 +24,8 @@
     - [Install](#install)
     - [Database Setup](#database-setup)
     - [Usage](#usage)
-  - [💻 API Documentation ](#-api-documentation-)
+  - [🔬 Running Tests ](#-running-tests-)
+    - [Test Suite](#test-suite)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -154,7 +155,23 @@ This should start your local server on http://localhost:3000/. Now, you can use 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🔬 Running Tests <a name="running-tests"></a>
+
+To run tests, navigate to the directory where the project is located on your machine, open your terminal, and follow these steps:
+
+### Test Suite
+
+This project contains a suite of unit tests which you can run to ensure everything is functioning as expected. To run these tests, you need RSpec installed.
+
+To install RSpec if you haven't already, run:
+
+```sh
+gem install rspec
 ## 💻 API Documentation <a name="getting-started"></a>
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <div align="center">
 
