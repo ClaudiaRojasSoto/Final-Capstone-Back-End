@@ -36,7 +36,7 @@
   - [📝 License ](#-license-)
 
 
-# 📖 final capstone back end <a name="about-project"></a>
+# 📖 Final Capstone Back End <a name="about-project"></a>
 
 **final_capstone_back_end** The back-end component of this final capstone project is developed using Ruby on Rails, configured to serve as an API. This API is designed to facilitate reservations or appointments for test drives of cars. It leverages a PostgreSQL database to manage and store reservation data.
 
