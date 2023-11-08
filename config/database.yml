@@ -19,6 +19,7 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
+
 development:
   <<: *default
   database: final_capstone_back_end_development
@@ -79,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: final_capstone_back_end_production
   username: final_capstone_back_end
   password: <%= ENV["FINAL_CAPSTONE_BACK_END_DATABASE_PASSWORD"] %>
