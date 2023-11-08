@@ -4,7 +4,7 @@
 
 <a name="readme-top"></a>
 
-  <h3><b>final_capstone_back_end</b></h3>
+  <h3><b>Final Capstone Back End</b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
   - [📝 License ](#-license-)
 
 
-# 📖 final_capstone_back_end <a name="about-project"></a>
+# 📖 Final Capstone Back End <a name="about-project"></a>
 
 **final_capstone_back_end** The back-end component of this final capstone project is developed using Ruby on Rails, configured to serve as an API. This API is designed to facilitate reservations or appointments for test drives of cars. It leverages a PostgreSQL database to manage and store reservation data.
 
@@ -47,7 +47,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 link to front end <a name="built-with"></a>
+## 💻 Link to front end <a name="built-with"></a>
 
 
 [Link to Front End](https://github.com/ClaudiaRojasSoto/Final-Capstone-Front-End)
@@ -62,8 +62,8 @@
 
 This project was completed by two of the three original Team members:
 
-- Pablo Bonasera
 - Claudia Rojas
+- Pablo Bonasera
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,6 +150,8 @@ To run the project, execute the following command:
 ```sh
 
 rails server
+or
+rails s
 
 ```
 This should start your local server on http://localhost:3000/. Now, you can use the REST API client of your choice to interact with the API.
