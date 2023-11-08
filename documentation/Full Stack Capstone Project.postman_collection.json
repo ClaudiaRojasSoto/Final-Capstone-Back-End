@@ -201,7 +201,7 @@
 						"reservations"
 					]
 				},
-				"description": "Add reservetion with autocomplete"
+				"description": "Add reservation with autocomplete"
 			},
 			"response": []
 		},
@@ -469,7 +469,7 @@
 						"current"
 					]
 				},
-				"description": "Guve details about the current user."
+				"description": "Give details about the current user."
 			},
 			"response": []
 		}
