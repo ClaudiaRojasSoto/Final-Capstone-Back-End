@@ -62,8 +62,8 @@
 
 This project was completed by two of the three original Team members:
 
-- Pablo Bonasera
 - Claudia Rojas
+- Pablo Bonasera
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
