@@ -150,6 +150,8 @@ To run the project, execute the following command:
 ```sh
 
 rails server
+or
+rails s
 
 ```
 This should start your local server on http://localhost:3000/. Now, you can use the REST API client of your choice to interact with the API.
