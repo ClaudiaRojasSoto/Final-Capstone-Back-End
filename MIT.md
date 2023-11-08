@@ -4,4 +4,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software.
 
-The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE software OR THE USE OR OTHER DEALINGS IN THE software.
+The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE software OR THE USE OR OTHER DEALINGS IN THE software.
