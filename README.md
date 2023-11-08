@@ -47,7 +47,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 link to front end <a name="built-with"></a>
+## 💻 Link to front end <a name="built-with"></a>
 
 
 [Link to Front End](https://github.com/ClaudiaRojasSoto/Final-Capstone-Front-End)
