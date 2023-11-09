@@ -1,34 +1,15 @@
 class Api::CarsController < ApplicationController
   skip_before_action :set_current_user, only: [:create]
   def index
-    @cars = Car.all
     @reservations = current_user.reservations.includes(:car).where(cars: { removed: false })
-
+    @cars = Car.all
     cars_json = @cars.map do |car|
       car_attributes = car.attributes
       car_attributes['image_url'] = url_for(car.image) if car.image.attached?
       car_attributes
     end
-    reservations_json = @reservations.map do |reservation|
-      {
-        reservation_id: reservation.id,
-        car: reservation.car.attributes,
-        image_url: reservation.car.image.attached? ? url_for(reservation.car.image) : nil,
-        # Agrega más atributos de la reserva según tus necesidades
-      }
-    end
-    render json: { cars: cars_json, reservations: reservations_json }
+    render json: cars_json
   end
-  # def index
-  #   @reservations = current_user.reservations.includes(:car).where(cars: { removed: false })
-  #   @cars = Car.all
-  #   cars_json = @cars.map do |car|
-  #     car_attributes = car.attributes
-  #     car_attributes['image_url'] = url_for(car.image) if car.image.attached?
-  #     car_attributes
-  #   end
-  #   render json: cars_json
-  # end
 
   def show
     @car = Car.find(params[:id])
