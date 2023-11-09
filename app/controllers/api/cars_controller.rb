@@ -1,4 +1,5 @@
 class Api::CarsController < ApplicationController
+  before_action :set_current_user
   # skip_before_action :set_current_user, only: [:create]
   def index
     @reservations = current_user.reservations.includes(:car).where(cars: { removed: false })
