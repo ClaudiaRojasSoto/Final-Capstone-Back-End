@@ -29,6 +29,7 @@ module FinalCapstoneBackEnd
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.middleware.use ActionDispatch::Cookies # Added this line
-    config.middleware.use ActionDispatch::Session::CookieStore # Added this line
+    config.middleware.use ActionDispatch::Session::CookieStore, key: '_finalcapstone', httponly: true, secure: Rails.env.production?, same_site: :none
+    # config.middleware.use ActionDispatch::Session::CookieStore # este es el original
   end
 end
