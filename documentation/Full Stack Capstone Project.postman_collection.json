@@ -1,0 +1,477 @@
+{
+	"info": {
+		"_postman_id": "c8aa6272-86a4-41fb-b5ec-171e9242b734",
+		"name": "Full Stack Capstone Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19270283"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/cars/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/cars/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars",
+						"3"
+					]
+				},
+				"description": "Delete a car"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars/6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/cars/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars",
+						"6"
+					]
+				},
+				"description": "Catch a car by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars"
+					]
+				},
+				"description": "Catch all the cars"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user\": {\n    \"name\": \"ccc\",\n    \"email\": \"ccc@ccc.com\",\n    \"password\": \"123456\"\n  }\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Sign in users (create an user)"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"bbb@bbb.com\",\n  \"password\": \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Login an user (to open a session)"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/logout",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"logout"
+					]
+				},
+				"description": "Log out current user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/user_reservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/user_reservations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user_reservations"
+					]
+				},
+				"description": "All the reservations and cars reserved for the user..."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars/2/reservations",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"reservation\": {\n        \"start_time\": \"2023-10-28T14:00:00Z\",\n        \"end_time\": \"2023-10-29T14:00:00Z\",\n        \"city\": \"Copiapo\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/cars/2/reservations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars",
+						"2",
+						"reservations"
+					]
+				},
+				"description": "Add reservation with autocomplete"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/reservations/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/reservations/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"reservations",
+						"2"
+					]
+				},
+				"description": "delete reservation"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/cars/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars",
+						"4"
+					]
+				},
+				"description": "Delete a car"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "car[name]",
+							"value": "Car 5",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[description]",
+							"value": "This is a description for Car 5",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[deposit]",
+							"value": "1400",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[finance_fee]",
+							"value": "300",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[option_to_purchase_fee]",
+							"value": "500",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[total_amount_payable]",
+							"value": "1250",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[duration]",
+							"value": "17",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[removed]",
+							"value": "false",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[image]",
+							"contentType": "",
+							"type": "file",
+							"src": "/Users/claudiapatriciarojassoto/Desktop/car-5.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars"
+					]
+				},
+				"description": "Add a car with hash"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "car[name]",
+							"value": "Car 111",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[description]",
+							"value": "This is a description for Car 5",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[deposit]",
+							"value": "1400",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[finance_fee]",
+							"value": "300",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[option_to_purchase_fee]",
+							"value": "500",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[total_amount_payable]",
+							"value": "1250",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[duration]",
+							"value": "17",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[removed]",
+							"value": "false",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "car[image]",
+							"contentType": "",
+							"type": "file",
+							"src": "/Users/claudiapatriciarojassoto/Desktop/car-5.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "List all the users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				},
+				"description": "List a ser information by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/current",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"current"
+					]
+				},
+				"description": "Give details about the current user."
+			},
+			"response": []
+		}
+	]
+}
